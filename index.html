@@ -48,7 +48,7 @@ background: '/img/bg-index.jpg'
 
 <!-- Featured
 ================================================== -->
-<section class="row">
+<!-- <section class="row">
   {% for post in site.posts %}
       {% if post.featured == true %}
           <div class="col-md-4 mb-5">
@@ -57,12 +57,12 @@ background: '/img/bg-index.jpg'
       {% endif %}
   {% endfor %}
   </div>
-</section>
+</section> -->
 
 <!-- Posts List with Sidebar (except featured)
 ================================================== -->
 <section class="row">
-  <div class="col-sm-8">
+  <!-- <div class="col-sm-8">
     <div class="row">
       {% for post in paginator.posts %}
       {% unless post.featured == true %}
@@ -77,6 +77,18 @@ background: '/img/bg-index.jpg'
       <span class="navigation" role="navigation">
           {% include pagination.html %}
       </span>
+    </div>
+  </div> -->
+
+  <div class="col-sm-8">
+    <div class="rounded mb-5 hero" style="background:aquamarine;">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6">
+          <h1 class="font-weight-bold mb-4 serif-font">Salesforce</h1>
+          <p class="lead mb-4">Explore lot of amazing content on Salesforce LWC, Aura, Flows and more</p>
+          <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">Explore Salesforce</a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="col-sm-4">
