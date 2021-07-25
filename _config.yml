@@ -1,7 +1,7 @@
 title: "So Called Blogger"
 email: salesforcelwc@gmail.com
 timezone: UTC
-baseurl: ""
+baseurl: "/SoCalledBlogger-Main"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
