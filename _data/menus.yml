@@ -4,6 +4,12 @@ topmenu:
 - title: Home
   url: ""
 
+- title: Salesforce
+  url: "https://tech.socalledblogger.com/salesforce"
+
+- title: Heroku
+  url: "https://tech.socalledblogger.com/heroku"
+
 - title: About
   url: "about/"
 
